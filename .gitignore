@@ -1,5 +1,7 @@
 local.sln
 obj
 parametros.csproj
-classexamples.csproj
 bin
+POO.csproj
+classtest
+priorityclass.csproj
