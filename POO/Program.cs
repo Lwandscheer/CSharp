@@ -1,3 +1,0 @@
-﻿using priorityclass;
-
-DerivedClass.drawrectangle();

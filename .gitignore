@@ -5,3 +5,5 @@ bin
 POO.csproj
 classtest
 priorityclass.csproj
+Constructor.csproj
+modifierMethod.csproj
