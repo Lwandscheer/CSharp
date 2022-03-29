@@ -2,12 +2,15 @@
 Pagamento pagamento01 = new PagamentoViaTed();
 Pagamento pagamento02 = new PagamentoViaBoleto();
 
+// Não é possível fazer uma instância de uma classe abstrata, pois ela por si só não apresenta funcionalidades práticas
+// Pagamento pagamento = new Pagamento(); --> irá gerar um erro
+
 pagamento01.Pagar();
 pagamento02.Pagar();
 
 
 // Classe base
-public class Pagamento 
+public abstract class Pagamento 
 {
     public double Valor {get; set;}
     public DateTime Vencimento {get; set;}
